@@ -1,0 +1,65 @@
+html{
+	background-color: black;
+}
+body{
+	background-color: black;
+}
+header{
+	font-family: 'PT Serif',Serif;
+}
+.logo{
+	font-size: 90px;
+
+}
+.bar{
+	width:80%;
+	height:5px;
+	background-color:#00008b;
+	margin-left: 20%;
+}
+about{
+	font-family: 'PT Serif',Serif;
+}
+.footerbar{
+	width:100%;
+	height:5px;
+	background-color:#00008b;
+	margin-top: 50px;
+}
+small{
+	font-family: 'PT Serif',Serif;
+
+}
+email{
+	font-family: 'PT Serif',Serif;
+}
+#playlist {
+	font-family: 'PT Serif',Serif;
+}
+#playlist{
+	list-style: none;
+}
+#playlist li a{
+	color: white;
+	text-decoration: none;
+}
+#playlist .current-song a {
+	color: blue;
+}
+#audioPlayer{
+	width: 650px;
+}
+@media only screen and (max-width:960px) {
+	.logobar{
+		width:80%;
+		height:5px;
+		background-color:#00008b;
+	}
+	.about{
+		flex-wrap: wrap;
+	}
+	#audioPlayer{
+		width: 470px;
+	}
+	
+}
